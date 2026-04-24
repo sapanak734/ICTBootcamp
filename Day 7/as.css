@@ -1,0 +1,64 @@
+body {
+    font-family: "Georgia";
+    background-color: rgb(160, 133, 93);
+    color: rgb(124, 30, 30);
+    line-height:1.7;
+}
+
+h1 {
+    font-size: 2.4rem;
+    letter-spacing: -0.5px;
+}
+
+p {
+    margin-bottom: 14px;
+}
+
+.page-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+}
+
+#site-header {
+      background-color: rgb(172, 47, 47);
+      color: rgb(63, 57, 22);
+      padding: 48px 32px 36px;
+      border-radius: 6px;
+      position: relative;
+      overflow:hidden;
+}
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    border-bottom: 2px solid brown;
+}
+h3{
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: brown;
+}
+
+.section {
+    margin-bottom: 52px;
+    padding: 28px 32px;
+    border: 1px solid #add;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0px 2px 8px rgb( 33,33,32,0.662)
+}
+.badge{
+    display:inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-right: 6px;
+}
+.badge-red { background: rgd(213,210,210);color:red;}
+   .badge-blue{ background: rgd(200,200,231);color:blur;}
+   .badge-green{ background: rgb(180,208,180);color:green;}
+
+
