@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <button onclick="
+    user = ' rock ';
+    computer = options[Math.floor(Math.random()*3)];
+    if (user==computer) {
+        result = 'Draw';
+    }
+    else if (computer =='paper') {
+        result = 'You Loose.';
+    }
+    else if(computer == scissor'){
+         result = 'You Win';
+    }
+    document.getElementById('user').innerHTML = 'You:  ' +user; 
+    document.getElementById('computer').innerHTML = 'Computer:' +computer;
+    document.getElementById('result').innerHTML = 'Result: ' +result;
+    ">Rock</button>
+    <button onclick="
+     user = 'paper ';
+     computer =options[Math.floor(Math.random()*3)];
+     if (user==computer) {
+        result ='Draw';
+     }
+     else if (computer =='rock'){
+        result = 'You Win';
+     }
+     else{
+        result = 'You Loose.';
+     }
+     document.getElementById('user').innerHTML ='You: ' +user;
+     document.getElementById('computer').innerHTML = 'Computer:' +computer;
+     document.getElementById('result').innerHTML = 'Result: ' +result;
+     ">Paper</button>"
+    <button onclick="
+    user = 'scissor ';
+    computer =options[Math.floor(Math.random()*3)];
+    if (user==computer) {
+        result ='Draw'
+    }
+    else if (computer =='rock'){
+        result = 'You Win';
+    }
+    else{
+        result = 'You Loose.';
+    }
+    document.getElementById('user').innerHTML ='You: ' +user;
+    document.getElementById('computer').innerHTML ='Computer:' +commputer;
+    document.getElementById('result').innerHTML = 'Result: ' +result;
+    ">scissor</button>
+    <h1 id="user"></h1>
+    <h2 id="computer"></h2>
+    <h3 id="result"></h3>
+
+    <script>
+        var options = ['rock' , 'paper', 'scissor'];
+        var user;
+        var computer;
+        var result;
+    </script>
+</body>
+</html>
